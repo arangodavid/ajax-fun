@@ -31,7 +31,7 @@
     				<p>${article.snippet}</p>
     			</li>`).join('') + '</ul>';
     	}else {
-    		htmlArticleContent = `<section class="error-no-image">No articles available</section>`;
+    		htmlArticleContent = `<section class="error-no-articles">No articles available</section>`;
     	}
 
     	responseContainer.insertAdjacentHTML('beforeend', htmlArticleContent);
